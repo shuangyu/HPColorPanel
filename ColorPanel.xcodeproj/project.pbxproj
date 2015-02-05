@@ -22,6 +22,15 @@
 		6735BCF618FD49C3007C2D65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6735BCD518FD49C3007C2D65 /* UIKit.framework */; };
 		6735BCFE18FD49C3007C2D65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6735BCFC18FD49C3007C2D65 /* InfoPlist.strings */; };
 		6735BD0018FD49C3007C2D65 /* ColorPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6735BCFF18FD49C3007C2D65 /* ColorPanelTests.m */; };
+		6735BD0B18FD49DD007C2D65 /* HPColorPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6735BD0A18FD49DD007C2D65 /* HPColorPanelView.m */; };
+		6735BD0E18FD49F1007C2D65 /* camera_photos_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 6735BD0C18FD49F1007C2D65 /* camera_photos_color.png */; };
+		6735BD0F18FD49F1007C2D65 /* camera_photos_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 6735BD0C18FD49F1007C2D65 /* camera_photos_color.png */; };
+		6735BD1018FD49F1007C2D65 /* camera_photos_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6735BD0D18FD49F1007C2D65 /* camera_photos_color@2x.png */; };
+		6735BD1118FD49F1007C2D65 /* camera_photos_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6735BD0D18FD49F1007C2D65 /* camera_photos_color@2x.png */; };
+		67D7424518FE22DE00730996 /* camera_photos_color_reminder.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D7424318FE22DE00730996 /* camera_photos_color_reminder.png */; };
+		67D7424618FE22DE00730996 /* camera_photos_color_reminder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67D7424418FE22DE00730996 /* camera_photos_color_reminder@2x.png */; };
+		67D7424918FE23EB00730996 /* HPPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D7424818FE23EB00730996 /* HPPopView.m */; };
+		67D7424B18FE240500730996 /* HPPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D7424A18FE240500730996 /* HPPopView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		6735BCFB18FD49C3007C2D65 /* ColorPanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorPanelTests-Info.plist"; sourceTree = "<group>"; };
 		6735BCFD18FD49C3007C2D65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6735BCFF18FD49C3007C2D65 /* ColorPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorPanelTests.m; sourceTree = "<group>"; };
+		6735BD0918FD49DD007C2D65 /* HPColorPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPColorPanelView.h; sourceTree = "<group>"; };
+		6735BD0A18FD49DD007C2D65 /* HPColorPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPColorPanelView.m; sourceTree = "<group>"; };
+		6735BD0C18FD49F1007C2D65 /* camera_photos_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_photos_color.png; sourceTree = "<group>"; };
+		6735BD0D18FD49F1007C2D65 /* camera_photos_color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_photos_color@2x.png"; sourceTree = "<group>"; };
+		67D7424318FE22DE00730996 /* camera_photos_color_reminder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_photos_color_reminder.png; sourceTree = "<group>"; };
+		67D7424418FE22DE00730996 /* camera_photos_color_reminder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_photos_color_reminder@2x.png"; sourceTree = "<group>"; };
+		67D7424718FE23EB00730996 /* HPPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPopView.h; sourceTree = "<group>"; };
+		67D7424818FE23EB00730996 /* HPPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPopView.m; sourceTree = "<group>"; };
+		67D7424A18FE240500730996 /* HPPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPPopView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +132,21 @@
 		6735BCD718FD49C3007C2D65 /* ColorPanel */ = {
 			isa = PBXGroup;
 			children = (
+				67D7424318FE22DE00730996 /* camera_photos_color_reminder.png */,
+				67D7424418FE22DE00730996 /* camera_photos_color_reminder@2x.png */,
+				6735BD0C18FD49F1007C2D65 /* camera_photos_color.png */,
+				6735BD0D18FD49F1007C2D65 /* camera_photos_color@2x.png */,
+				6735BD0918FD49DD007C2D65 /* HPColorPanelView.h */,
+				6735BD0A18FD49DD007C2D65 /* HPColorPanelView.m */,
 				6735BCE018FD49C3007C2D65 /* HPAppDelegate.h */,
 				6735BCE118FD49C3007C2D65 /* HPAppDelegate.m */,
 				6735BCE318FD49C3007C2D65 /* Main_iPhone.storyboard */,
 				6735BCE618FD49C3007C2D65 /* Main_iPad.storyboard */,
 				6735BCE918FD49C3007C2D65 /* HPViewController.h */,
 				6735BCEA18FD49C3007C2D65 /* HPViewController.m */,
+				67D7424718FE23EB00730996 /* HPPopView.h */,
+				67D7424818FE23EB00730996 /* HPPopView.m */,
+				67D7424A18FE240500730996 /* HPPopView.xib */,
 				6735BCEC18FD49C3007C2D65 /* Images.xcassets */,
 				6735BCD818FD49C3007C2D65 /* Supporting Files */,
 			);
@@ -232,7 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D7424618FE22DE00730996 /* camera_photos_color_reminder@2x.png in Resources */,
+				67D7424518FE22DE00730996 /* camera_photos_color_reminder.png in Resources */,
+				6735BD0E18FD49F1007C2D65 /* camera_photos_color.png in Resources */,
 				6735BCE818FD49C3007C2D65 /* Main_iPad.storyboard in Resources */,
+				67D7424B18FE240500730996 /* HPPopView.xib in Resources */,
+				6735BD1018FD49F1007C2D65 /* camera_photos_color@2x.png in Resources */,
 				6735BCED18FD49C3007C2D65 /* Images.xcassets in Resources */,
 				6735BCE518FD49C3007C2D65 /* Main_iPhone.storyboard in Resources */,
 				6735BCDC18FD49C3007C2D65 /* InfoPlist.strings in Resources */,
@@ -244,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6735BCFE18FD49C3007C2D65 /* InfoPlist.strings in Resources */,
+				6735BD0F18FD49F1007C2D65 /* camera_photos_color.png in Resources */,
+				6735BD1118FD49F1007C2D65 /* camera_photos_color@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6735BCEB18FD49C3007C2D65 /* HPViewController.m in Sources */,
+				67D7424918FE23EB00730996 /* HPPopView.m in Sources */,
 				6735BCE218FD49C3007C2D65 /* HPAppDelegate.m in Sources */,
 				6735BCDE18FD49C3007C2D65 /* main.m in Sources */,
+				6735BD0B18FD49DD007C2D65 /* HPColorPanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +507,7 @@
 				6735BD0518FD49C3007C2D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6735BD0618FD49C3007C2D65 /* Build configuration list for PBXNativeTarget "ColorPanelTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +516,7 @@
 				6735BD0818FD49C3007C2D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
